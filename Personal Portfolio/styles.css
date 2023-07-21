@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-image: url('path/to/your/image.jpg');
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color:black
+}
+
+/* Other Sections Styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contact {
+
+  text-align: center;
+  padding: 40px 0;
+}
+
+
+#skills {
+ 
+  text-align: center;
+  padding: 40px 0;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  display: inline-block;
+  margin: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+#about{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+article{
+    background-image: url(pngtree-abstract-memphis-playful-portfolio-pink-image_593418.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
